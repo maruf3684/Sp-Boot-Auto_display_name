@@ -1,0 +1,10 @@
+server:
+  display-name: Your Display Name
+  servlet:
+#    context-path: /NewPro
+    application-display-name: Your Display Name
+  port: 8082
+
+spring:
+  application:
+    name: Your Display Name
