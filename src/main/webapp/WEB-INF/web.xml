@@ -1,8 +1,3 @@
-<!--<web-app>-->
-<!--    <display-name>My Spring Boot Application</display-name>-->
-<!--</web-app>-->
-
-
 <web-app>
-    <display-name>${spring.application.name} - ${spring.profiles.active} - ${spring.git.branch} - ${spring.git.commit.id.abbrev}</display-name>
+  <display-name>Branch: master, Commit Id: 4e77ab84cd90b1ff191846e45d053f2212ad0c7b</display-name>
 </web-app>

@@ -1,10 +1,16 @@
 server:
-  display-name: Your Display Name
-  servlet:
-#    context-path: /NewPro
-    application-display-name: Your Display Name
   port: 8082
 
-spring:
-  application:
-    name: Your Display Name
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "info"
+  info:
+    build:
+      enabled: true
+    git:
+      enabled: true
+      mode: full
+
+
